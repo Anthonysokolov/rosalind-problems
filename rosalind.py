@@ -6,7 +6,7 @@ General functions for solving rosalind problems
 
 def txt_to_list(file):
     '''
-    Takes in a .txt file and return a list containing each row of the file
+    Takes in a .txt file and return a string containing each row of the file
     '''
     data = ''
 
