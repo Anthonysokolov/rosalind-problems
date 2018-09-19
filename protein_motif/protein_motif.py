@@ -33,7 +33,7 @@ def motif_present(s):
                     return True
     return False
 
-def concatenate(var):
+def format_list(var):
     '''
     Formats the items of a list into a string
     '''
@@ -50,7 +50,7 @@ def format_protein(protein):
     '''
     url = 'https://www.uniprot.org/uniprot/{}.fasta'
     sequence = str(requests.get(url.format(protein)).content).split('\\n')[1:]
-    return concatenate(sequence)
+    return format_list(sequence)
 
 
 

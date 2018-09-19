@@ -4,7 +4,7 @@
 General functions for solving rosalind problems
 """
 
-def txt_to_list(file):
+def format_txt(file):
     '''
     Takes in a .txt file and return a string containing each row of the file
     '''
@@ -16,7 +16,7 @@ def txt_to_list(file):
     for line in lines:
         data += line
         
-    return format_data(data)
+    return format_strand(data)
 
 
 def format_strand(string):
