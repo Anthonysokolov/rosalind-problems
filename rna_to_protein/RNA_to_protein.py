@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Translate RNA into protein
+Translate a RNA string into a protein string
 """
 import sys 
 sys.path.append('..')
 from rosalind import format_txt, concatenate
 
+# Create a dict mapping each protein to its RNA codon
 codons = ['UUU','UUC','UUA','UUG', 'UCU', 'UCC', 'UCA', 'UCG', 'UAU', 'UAC', 
           'UAA', 'UAG', 'UGU', 'UGC', 'UGA', 'UGG', 'CUU', 'CUC', 'CUA', 'CUG',
           'CCU', 'CCC', 'CCA', 'CCG', 'CAU', 'CAC', 'CAA', 'CAG', 'CGU', 'CGC',
@@ -25,7 +26,11 @@ translate = {}
 for num in range(len(codons)):
     translate[codons[num]] = proteins[num]
     
+    
 def RNA_to_protein(strand):
+    '''
+    Takes in a RNA string and returns the protein string it codes for
+    '''
     strand = list(strand)
     x = 0
     out = ''
