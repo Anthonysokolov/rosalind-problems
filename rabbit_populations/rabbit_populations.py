@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+http://rosalind.info/problems/fib/
 Returns the total number of rabbit pairs that will be present after n months,
 if we begin with 1 pair and in each generation, every pair of reproduction-age 
 rabbits produces a litter of k rabbit pairs (instead of only 1 pair).
