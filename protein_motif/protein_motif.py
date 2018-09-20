@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+http://rosalind.info/problems/mprt/
 Find the locations of the N-glycosylation motif in a protein
 """
 import requests
