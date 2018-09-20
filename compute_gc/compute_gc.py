@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+http://rosalind.info/problems/gc/
 Compute the GC content of a strand of DNA
 """
 from rosalind import txt_to_list
