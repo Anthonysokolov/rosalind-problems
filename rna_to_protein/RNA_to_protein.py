@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+http://rosalind.info/problems/prot/
 Translate a RNA string into a protein string
 """
 import sys 
