@@ -40,7 +40,7 @@ def concatenate(var):
     '''
     out = ''
     for item in var:
-        out += item
+        out += str(item)
         
     return out
 
