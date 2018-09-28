@@ -21,7 +21,7 @@ def substring_locations(s,t):
     
     return locations
 
-file = 'sample.txt'
+file = 'rosalind_subs.txt'
 
 with open(file) as f:
     lines = f.readlines()
