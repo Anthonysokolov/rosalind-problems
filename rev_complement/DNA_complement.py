@@ -19,13 +19,7 @@ def rev_complement(strand):
     for item in list(strand):
         complement += complements[item]
     
-    return reverse(complement)
-
-def reverse(strand):
-    '''
-    Returns a reverse ordered string
-    '''
-    return concatenate(list(strand)[::-1])
+    return complement[::-1]
 
 file = 'rosalind_revc.txt'
 
